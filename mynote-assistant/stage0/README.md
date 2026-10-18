@@ -16,7 +16,7 @@
 
 ## 3. PC 실측 (형 PC, 5분)
 ```powershell
-cd "D:\씨엠엑스 OKR Dropbox\CMX협업네트워크방\00_AI파이선\16_마이노트\90_작업기록\비서_0단계_20261013\pc"
+cd "H:\공유 드라이브\CMX_워크센터\00_AI파이선\16_마이노트\90_작업기록\비서_0단계_20261013\pc"
 pip install caldav icalendar
 $env:CALDAV_USER="네이버ID"; $env:CALDAV_PASS="앱비밀번호"
 python caldav_probe.py --list-only                 # 1차: 조회만
